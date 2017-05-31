@@ -1,0 +1,148 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  background-image: url(img/bg.jpg);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body > div {
+  border: solid #ffd24a;
+  width: 1000px;
+}
+
+header {
+  background-color: #ff8523;
+  height: 200px;
+}
+
+#logo img {
+  padding: 2% 0 0 4%;
+}
+
+.main_navigation {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+
+}
+
+.main_navigation a {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 30%;
+  margin-left: 5px;
+  text-align: center;
+
+}
+
+.main_navigation a:hover {
+  background-color: white;
+  color: #ff8523;
+}
+
+body div {
+  background-color: white;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+#page_content {
+  padding: 25px;
+}
+
+p a {
+  color: #1fabe5;
+}
+
+section:first-of-type {
+  padding-bottom: 50px;
+  border-bottom: 3px solid #ddd;
+}
+
+table {
+  background: #1fabe5;
+  width: 100%;
+
+}
+
+
+thead tr{
+  background: #046c97;
+  height: 50px;
+  color: white;
+}
+
+tbody td {
+  background-color: white;
+
+}
+
+td {
+  padding: 14px;
+}
+
+td img{
+  width: 62px;
+  height: 62px;
+
+}
+
+
+form {
+  width: 100%;
+  font-weight: bold;
+  background-color: #eee;
+
+}
+
+form div {
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+.name {
+  background-color: #ff8523;
+  padding-left: 30px;
+  margin: 20px;
+}
+
+#bio {
+  width: 100%;
+  border-color: #1fabe5;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  border-radius: 5px;
+  width: 75px;
+  height: 35px;
+  text-transform: uppercase;
+  border: none;
+}
